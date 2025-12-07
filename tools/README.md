@@ -94,10 +94,14 @@ Tools require Python 3.8+ and dependencies listed in `pyproject.toml`:
 # Install the package in development mode
 pip install -e ".[dev]"
 
-# Install with specific tool dependencies
-pip install -e ".[can]"  # For CAN bus tools
-pip install -e ".[network]"  # For network analysis tools
+# When CAN bus tools are added, install with:
+# pip install -e ".[can]"
+
+# When network analysis tools are added, install with:
+# pip install -e ".[network]"
 ```
+
+Note: Optional dependency groups (can, network) are currently placeholders and will be populated as tools are developed.
 
 ## Contributing
 

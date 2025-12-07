@@ -74,12 +74,17 @@ Review the documentation for your specific vehicle:
 Essential software tools (install as needed):
 
 ```bash
-# Install with network analysis dependencies
-pip install -e ".[network]"
+# Install with development dependencies
+pip install -e ".[dev]"
 
-# Install with CAN bus dependencies
-pip install -e ".[can]"
+# Optional: When CAN bus tools are added, install with:
+# pip install -e ".[can]"
+
+# Optional: When network analysis tools are added, install with:
+# pip install -e ".[network]"
 ```
+
+Note: Optional dependency groups are placeholders and will be populated as tools are developed.
 
 External tools to consider:
 - **Wireshark**: Network protocol analyzer

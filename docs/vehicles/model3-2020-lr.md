@@ -6,7 +6,7 @@
 - **Model**: Tesla Model 3 Long Range
 - **Year**: 2020
 - **Market**: France (EU)
-- **VIN**: [REDACTED - Add your VIN privately if needed]
+- **VIN**: [First 8 characters only - never commit full VIN]
 - **Purchase Date**: TBD
 - **Current Mileage**: TBD
 
